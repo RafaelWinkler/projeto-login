@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*
  Paleta de cores
-  roxo: 4c253f
-  rosa: d55a7e
-  cinza: 4e4c4c
+  roxo: #4c253f
+  rosa: #d55a7e
+  cinza: #4e4c4c
 */
 
 * {
@@ -33,10 +33,12 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 #login > #imagem {
     display: block;
-    background: #4c253f url('../imagens/aela.jpg') no-repeat;
+    background: #4e4c4cc5 url('../imagens/logo-aela.png') no-repeat;
     background-position: center ;
     height: 200px;
     background-size: cover;

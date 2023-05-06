@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Outras mídias */
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top, #4e4c4c, #4c253f, #d55a7e, #4c253f ,#4e4c4c);
+    }
+    #login {
+        width: 80vw;
+    }
+    #login > #imagem {
+        background: #4e4c4cc5 url('../imagens/logo-aela.png') no-repeat;
+        background-position: center;
+        background-size: contain;
+        float:left;
+        width: 30%;
+        height: 100%;
+        
+    }
+    #login > #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width:992px) {
+    body {
+        background-image: linear-gradient(to top, #4e4c4c, #4c253f, #d55a7e, #4c253f ,#4e4c4c);
+    }
+    #login {
+        width: 990px;
+    }
+    #login > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    #login > #formulario {
+        float: right;
+        width: 50%;
+    }
+}
