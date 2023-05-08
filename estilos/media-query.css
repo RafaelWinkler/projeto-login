@@ -27,6 +27,14 @@
     #formulario > p {
         font-size: 1em;
     }
+    form > input[type=submit] {
+        width: 60%;
+        text-align: center;
+    }
+    form > a.botao {
+        width: 60%;
+        text-align: center;
+    }
 }
 @media screen and (min-width:992px) {
     body {
@@ -36,7 +44,7 @@
         width: 990px;
     }
     #login > #imagem {
-        float: right;
+        float: right; 
         width: 50%;
         height: 100%;
         background-position: center;
