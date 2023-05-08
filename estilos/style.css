@@ -82,7 +82,7 @@ form > .campo {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-14px);
+    transform: translateY(-14.2px);
 
 }
 input::placeholder {
