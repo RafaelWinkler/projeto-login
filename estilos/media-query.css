@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /* Outras mídias */
-@media screen and (min-width:769px) and (max-width:992px) {
-
+@media screen and (min-width:769px) and (max-width:1024px) {
+    /* Configuração para Tablets */
     body {
         background-image: linear-gradient(to top, #4e4c4c, #4c253f, #d55a7e, #4c253f ,#4e4c4c);
     }
     #login {
         width: 80vw;
+        height: 340px;
     }
     #login > #imagem {
         background: #4e4c4cc5 url('../imagens/logo-aela.png') no-repeat;
@@ -27,21 +28,17 @@
     #formulario > p {
         font-size: 1em;
     }
-    form > input[type=submit] {
-        width: 60%;
-        text-align: center;
-    }
-    form > a.botao {
-        width: 60%;
-        text-align: center;
-    }
+
 }
-@media screen and (min-width:992px) {
+
+@media screen and (min-width:1024px) {
+    /* Configuração para Desktop */
     body {
         background-image: linear-gradient(to top, #4e4c4c, #4c253f, #d55a7e, #4c253f ,#4e4c4c);
     }
     #login {
         width: 990px;
+        height: 400px;
     }
     #login > #imagem {
         float: right; 
@@ -58,6 +55,7 @@
         font-size: 2em;
     }
     #formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 10px 0px;
     }
 }
